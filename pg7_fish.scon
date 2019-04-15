@@ -1,0 +1,767 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 2000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": []
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 99
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									}
+								],
+								"time": 198
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "0"
+									}
+								],
+								"time": 298
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "0"
+									}
+								],
+								"time": 398
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "0"
+									}
+								],
+								"time": 498
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									}
+								],
+								"time": 598
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 698
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "0"
+									}
+								],
+								"time": 800
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 900
+							},
+							{
+								"bone_ref": [],
+								"id": 10,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "0"
+									}
+								],
+								"time": 1000
+							},
+							{
+								"bone_ref": [],
+								"id": 11,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "0"
+									}
+								],
+								"time": 1100
+							},
+							{
+								"bone_ref": [],
+								"id": 12,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "0"
+									}
+								],
+								"time": 1200
+							},
+							{
+								"bone_ref": [],
+								"id": 13,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "9",
+										"z_index": "0"
+									}
+								],
+								"time": 1300
+							},
+							{
+								"bone_ref": [],
+								"id": 14,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "10",
+										"z_index": "0"
+									}
+								],
+								"time": 1400
+							},
+							{
+								"bone_ref": [],
+								"id": 15,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "11",
+										"z_index": "0"
+									}
+								],
+								"time": 1500
+							},
+							{
+								"bone_ref": [],
+								"id": 16,
+								"object_ref": [],
+								"time": 1600
+							}
+						]
+					},
+					"name": "anim",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 1
+									},
+									"time": 99
+								}
+							],
+							"name": "pg7_sparkle"
+						},
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 1
+									},
+									"time": 295
+								}
+							],
+							"name": "pg7_fish"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"x": -173.00759013282732,
+										"y": 118.40607210626186
+									},
+									"spin": 0,
+									"time": 99
+								}
+							],
+							"name": "m_0011_Layer-0",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 0,
+										"x": -149.99208735559426,
+										"y": 194.29762093158197
+									},
+									"spin": 0,
+									"time": 198
+								}
+							],
+							"name": "m_0000_f_0032_f2",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"x": -131.82703544994155,
+										"y": 242.25165562913907
+									},
+									"spin": 0,
+									"time": 298
+								}
+							],
+							"name": "m_0001_f_0031_f3",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"x": -50.52910052910053,
+										"y": 259.90173847316703
+									},
+									"spin": 0,
+									"time": 398
+								}
+							],
+							"name": "m_0002_f_0030_f4",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 4,
+										"folder": 0,
+										"x": -16.417133732094456,
+										"y": 260.2544595535842
+									},
+									"spin": 0,
+									"time": 498
+								}
+							],
+							"name": "m_0003_f_0029_f5",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 5,
+										"folder": 0,
+										"x": -14.741850284018959,
+										"y": 259.5978508629112
+									},
+									"spin": 0,
+									"time": 598
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 5,
+										"folder": 0,
+										"x": -14.741850284018959,
+										"y": 259.5978508629112
+									},
+									"spin": 0,
+									"time": 800
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 5,
+										"folder": 0,
+										"x": -14.741850284018959,
+										"y": 259.5978508629112
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "m_0004_f_0028_f6",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 6,
+										"folder": 0,
+										"x": -15.49190210838465,
+										"y": 260.48815459315017
+									},
+									"spin": 0,
+									"time": 698
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 6,
+										"folder": 0,
+										"x": -15.49190210838465,
+										"y": 260.48815459315017
+									},
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "m_0005_f_0027_f7",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 7,
+										"folder": 0,
+										"x": -2.4170274170274126,
+										"y": 245.70707070707073
+									},
+									"spin": 0,
+									"time": 1100
+								}
+							],
+							"name": "m_0006_f_0026_f8",
+							"obj": 7
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 8,
+										"folder": 0,
+										"x": 74.1814228568297,
+										"y": 227.98147452306583
+									},
+									"spin": 0,
+									"time": 1200
+								}
+							],
+							"name": "m_0007_f_0025_f9",
+							"obj": 8
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 9,
+										"folder": 0,
+										"x": 104.4560063224447,
+										"y": 197.62123745819403
+									},
+									"spin": 0,
+									"time": 1300
+								}
+							],
+							"name": "m_0008_f_0024_f10",
+							"obj": 9
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 10,
+										"folder": 0,
+										"x": 124.50517318938373,
+										"y": 164.58614484930274
+									},
+									"spin": 0,
+									"time": 1400
+								}
+							],
+							"name": "m_0009_f_0023_f11",
+							"obj": 10
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 11,
+										"folder": 0,
+										"x": 125.88197521351051,
+										"y": 164.3703846400822
+									},
+									"spin": 0,
+									"time": 1500
+								}
+							],
+							"name": "m_0010_f_0022_f12",
+							"obj": 11
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0011_Layer-0",
+					"realname": "m_0011_Layer-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0000_f_0032_f2",
+					"realname": "m_0000_f_0032_f2",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0001_f_0031_f3",
+					"realname": "m_0001_f_0031_f3",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0002_f_0030_f4",
+					"realname": "m_0002_f_0030_f4",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0003_f_0029_f5",
+					"realname": "m_0003_f_0029_f5",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0004_f_0028_f6",
+					"realname": "m_0004_f_0028_f6",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0005_f_0027_f7",
+					"realname": "m_0005_f_0027_f7",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0006_f_0026_f8",
+					"realname": "m_0006_f_0026_f8",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0007_f_0025_f9",
+					"realname": "m_0007_f_0025_f9",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0008_f_0024_f10",
+					"realname": "m_0008_f_0024_f10",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 10,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0009_f_0023_f11",
+					"realname": "m_0009_f_0023_f11",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 11,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_m_0010_f_0022_f12",
+					"realname": "m_0010_f_0022_f12",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 40,
+					"id": 0,
+					"name": "anim1/m_0011_Layer-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 43
+				},
+				{
+					"height": 93,
+					"id": 1,
+					"name": "anim1/m_0000_f_0032_f2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 97
+				},
+				{
+					"height": 116,
+					"id": 2,
+					"name": "anim1/m_0001_f_0031_f3.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 148
+				},
+				{
+					"height": 59,
+					"id": 3,
+					"name": "anim1/m_0002_f_0030_f4.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 108
+				},
+				{
+					"height": 48,
+					"id": 4,
+					"name": "anim1/m_0003_f_0029_f5.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 75
+				},
+				{
+					"height": 48,
+					"id": 5,
+					"name": "anim1/m_0004_f_0028_f6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 74
+				},
+				{
+					"height": 48,
+					"id": 6,
+					"name": "anim1/m_0005_f_0027_f7.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 74
+				},
+				{
+					"height": 51,
+					"id": 7,
+					"name": "anim1/m_0006_f_0026_f8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 109
+				},
+				{
+					"height": 109,
+					"id": 8,
+					"name": "anim1/m_0007_f_0025_f9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 80
+				},
+				{
+					"height": 133,
+					"id": 9,
+					"name": "anim1/m_0008_f_0024_f10.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 83
+				},
+				{
+					"height": 100,
+					"id": 10,
+					"name": "anim1/m_0009_f_0023_f11.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 63
+				},
+				{
+					"height": 98,
+					"id": 11,
+					"name": "anim1/m_0010_f_0022_f12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 47
+				}
+			],
+			"id": 0,
+			"name": "anim1"
+		},
+		{
+			"file": [
+				{
+					"id": 0,
+					"name": "snd/pg7_sparkle.wav",
+					"type": "sound"
+				},
+				{
+					"id": 1,
+					"name": "snd/pg7_fish.wav",
+					"type": "sound"
+				}
+			],
+			"id": 1,
+			"name": "snd"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}

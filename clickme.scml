@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="clickMe.png" width="172" height="231" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="boxTiny.png" width="49" height="7" pivot_x="1" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="clickMe">
+        <obj_info name="clickMe_clickMe" realname="clickMe" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="clickMe_boxTiny" realname="boxTiny" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="clickMe" length="2000" interval="100">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="clickMe" folder="0" file="0" abs_x="-133.155239" abs_y="107.44114" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="boxTiny" folder="0" file="1" abs_x="-69.77686" abs_y="42.873573" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="750" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="1500" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="clickMe">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-47.155239" y="-8.05886" angle="0"/>
+                </key>
+                <key id="1" time="1" spin="0">
+                    <object folder="0" file="0" x="-47.155239" y="-8.05886" angle="0"/>
+                </key>
+                <key id="2" time="750" spin="0">
+                    <object folder="0" file="0" x="-47.155239" y="-8.05886" angle="0"/>
+                </key>
+                <key id="3" time="1500" spin="0">
+                    <object folder="0" file="0" x="-47.155239" y="-8.05886" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="boxTiny">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-20.77686" y="39.373573" angle="0" a="0"/>
+                </key>
+                <key id="1" time="1" spin="0">
+                    <object folder="0" file="1" x="-17.07073" y="-30.660962" angle="0" scale_x="1.041066" scale_y="1.172445"/>
+                </key>
+                <key id="2" time="750" spin="0">
+                    <object folder="0" file="1" x="-17.07073" y="-40.160962" angle="0" scale_x="1.041066" scale_y="1.172445"/>
+                </key>
+                <key id="3" time="1500" spin="0">
+                    <object folder="0" file="1" x="-17.07073" y="-49.660962" angle="0" scale_x="1.041066" scale_y="1.172445"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0">
+        <file id="0" name="b_0008_11.png" width="270" height="304" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="b_0004_15.png" width="270" height="304" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="b_0005_14.png" width="270" height="304" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="b_0006_13.png" width="270" height="304" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="b_0007_12.png" width="270" height="304" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg2_bookopenb.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_b_0008_11" realname="b_0008_11" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="2"/>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="anim" length="1100" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="b_0008_11" folder="0" file="0" abs_x="175.05042" abs_y="-52.690803" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="137">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="300">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="479">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="684">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="893">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="b_0008_11">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+                <key id="1" time="137" spin="0">
+                    <object folder="0" file="4" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+                <key id="2" time="300" spin="0">
+                    <object folder="0" file="3" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+                <key id="3" time="479" spin="0">
+                    <object folder="0" file="2" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+                <key id="4" time="684" spin="0">
+                    <object folder="0" file="1" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+                <key id="5" time="893" spin="0">
+                    <object folder="0" file="0" x="310.05042" y="-204.690803" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg2_bookopenb">
+                <key id="0" time="152">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0" name="anim">
+        <file id="0" name="anim/j_0000_e_0057_b1.png" width="201" height="157" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="anim/j_0001_e_0056_b2.png" width="224" height="140" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="anim/j_0002_e_0055_b3.png" width="225" height="212" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="anim/j_0003_e_0054_b4.png" width="319" height="254" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="anim/j_0004_e_0053_b5.png" width="353" height="273" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="anim/j_0007_Layer-0.png" width="316" height="257" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="anim/j_0005_e_0052_b6.png" width="321" height="284" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg8_horn.wav" type="sound"/>
+        <file id="1" name="snd/pg8_exit.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_j_0000_e_0057_b1" realname="j_0000_e_0057_b1" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0001_e_0056_b2" realname="j_0001_e_0056_b2" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0002_e_0055_b3" realname="j_0002_e_0055_b3" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0003_e_0054_b4" realname="j_0003_e_0054_b4" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0004_e_0053_b5" realname="j_0004_e_0053_b5" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0005_e_0052_b6" realname="j_0005_e_0052_b6" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0007_Layer-0" realname="j_0007_Layer-0" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0004_e_0053_b5_000" realname="j_0004_e_0053_b5_000" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0005_e_0052_b6_000" realname="j_0005_e_0052_b6_000" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_j_0004_e_0053_b5_001" realname="j_0004_e_0053_b5_001" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="NewAnimation" length="2000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="j_0000_e_0057_b1" folder="0" file="0" abs_x="-218.044479" abs_y="-222.569018" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="301">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="900">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="1000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="j_0000_e_0057_b1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-218.044479" y="-222.569018"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="0" x="-218.044479" y="-222.569018"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="j_0001_e_0056_b2">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" x="-228.220859" y="-240.490798"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="j_0002_e_0055_b3">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" x="-234.969325" y="-168.09816"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="j_0003_e_0054_b4">
+                <key id="0" time="301" spin="0">
+                    <object folder="0" file="3" x="-318.404908" y="-128.220859"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="4" name="j_0004_e_0053_b5">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="4" x="-281.595092" y="-107.361963"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="5" name="j_0005_e_0052_b6">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="6" x="-304.294479" y="-97.546012"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="6" name="j_0007_Layer-0">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="5" x="-276.07362" y="-123.312883"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="7" name="j_0004_e_0053_b5_000">
+                <key id="0" time="700" spin="0">
+                    <object folder="0" file="4" x="-281.595092" y="-107.361963"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="8" name="j_0005_e_0052_b6_000">
+                <key id="0" time="800" spin="0">
+                    <object folder="0" file="6" x="-304.907975" y="-96.319018"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="9" name="j_0004_e_0053_b5_001">
+                <key id="0" time="900" spin="0">
+                    <object folder="0" file="4" x="-282.208589" y="-107.361963"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg8_horn">
+                <key id="0" time="100">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg8_exit">
+                <key id="0" time="828">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

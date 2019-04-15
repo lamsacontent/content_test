@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="bg14.jpg" width="1280" height="768" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="f_0015_1.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="b_0001_6.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="b_0003_4.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="b_0005_2.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="b_0006_1.png" width="1280" height="768" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="f_0007_9.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="f_0008_8.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="f_0009_7.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="f_0010_6.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="f_0011_5.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="f_0012_4.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="f_0013_3.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="f_0014_2.png" width="918" height="729" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg14_click.wav" type="sound"/>
+        <file id="1" name="snd/pg14_laugh1.wav" type="sound"/>
+        <file id="2" name="snd/pg14_laugh2.wav" type="sound"/>
+        <file id="3" name="snd/pg14_laugh3.wav" type="sound"/>
+        <file id="4" name="snd/pg14_laugh4.wav" type="sound"/>
+        <file id="5" name="snd/pg14_laugh5.wav" type="sound"/>
+        <file id="6" name="snd/pg14_jump.wav" type="sound"/>
+        <file id="7" name="snd/pg14_jump copy.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_bg14" realname="bg14" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_f_0015_1" realname="f_0015_1" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+                <i folder="0" file="13"/>
+                <i folder="0" file="12"/>
+                <i folder="0" file="11"/>
+                <i folder="0" file="10"/>
+                <i folder="0" file="9"/>
+                <i folder="0" file="8"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_b_0005_2" realname="b_0005_2" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_b_0003_4" realname="b_0003_4" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_b_0001_6" realname="b_0001_6" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="900" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="f_0015_1" folder="0" file="1" abs_x="-318.063718" abs_y="354.531395" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="1" name="f_0015_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="13" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="12" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="11" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="0" file="10" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="0" file="9" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="0" file="8" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="0" file="7" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+                <key id="8" time="800" spin="0">
+                    <object folder="0" file="6" x="140.936282" y="-9.968605" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg14_jump">
+                <key id="0" time="10">
+                    <object folder="1" file="6"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_jump copy">
+                <key id="0" time="321">
+                    <object folder="1" file="7"/>
+                </key>
+            </soundline>
+        </animation>
+        <animation id="1" name="anim" length="4400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="bg14" folder="0" file="5" abs_x="-636.471698" abs_y="385.188679" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="623">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="1406">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="1927">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="4" time="2699">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="3198">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="bg14">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+                <key id="1" time="623" spin="0">
+                    <object folder="0" file="0" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+                <key id="2" time="1406" spin="0">
+                    <object folder="0" file="5" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+                <key id="3" time="1927" spin="0">
+                    <object folder="0" file="0" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+                <key id="4" time="2699" spin="0">
+                    <object folder="0" file="5" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+                <key id="5" time="3198" spin="0">
+                    <object folder="0" file="0" x="3.528302" y="1.188679" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="2" name="b_0005_2">
+                <key id="0" time="623" spin="0">
+                    <object folder="0" file="4" x="36.393443" y="-26.284711" angle="0" scale_x="1.75823" scale_y="1.75823"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="3" name="b_0003_4">
+                <key id="0" time="1927" spin="0">
+                    <object folder="0" file="3" x="2.153846" y="-23.076923" angle="0" scale_x="1.848349" scale_y="1.848349"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="b_0001_6">
+                <key id="0" time="3198" spin="0">
+                    <object folder="0" file="2" x="2.208931" y="-41.706539" angle="0" scale_x="1.869965" scale_y="1.841104"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg14_click">
+                <key id="0" time="70">
+                    <object folder="1" file="0"/>
+                </key>
+                <key id="1" time="1447">
+                    <object folder="1" file="0"/>
+                </key>
+                <key id="2" time="2593">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_laugh1">
+                <key id="0" time="336">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_laugh2">
+                <key id="0" time="436">
+                    <object folder="1" file="2"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_laugh4">
+                <key id="0" time="1733">
+                    <object folder="1" file="4"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_laugh3">
+                <key id="0" time="2997">
+                    <object folder="1" file="3"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg14_laugh5">
+                <key id="0" time="3110">
+                    <object folder="1" file="5"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

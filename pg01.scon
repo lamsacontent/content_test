@@ -1,0 +1,402 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 2205,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "WhiteBox",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 1,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 0.292961,
+										"abs_scale_y": 1,
+										"abs_x": 111.294964,
+										"abs_y": -2.4,
+										"file": 3,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "highLightBox",
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 2,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "txtOnly_01",
+										"timeline": "2",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 1
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 897
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 2205
+							}
+						]
+					},
+					"name": "pg01",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0
+									},
+									"time": 1
+								}
+							],
+							"name": "1"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 1
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 897
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2205
+								}
+							],
+							"name": "WhiteBox",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"scale_x": 0.292961,
+										"x": 111.294964,
+										"y": 2.4
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"scale_x": 0.292961,
+										"x": 111.294964,
+										"y": 2.4
+									},
+									"spin": 0,
+									"time": 1
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"scale_x": 0.40045,
+										"x": 17.769784,
+										"y": 2.4
+									},
+									"spin": 0,
+									"time": 897
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"scale_x": 0.40045,
+										"x": 17.769784,
+										"y": 2.4
+									},
+									"spin": 0,
+									"time": 2205
+								}
+							],
+							"name": "highLightBox",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 1
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 897
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 2205
+								}
+							],
+							"name": "txtOnly_01",
+							"obj": 2
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "pg01",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "pg01_WhiteBox",
+					"realname": "WhiteBox",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "pg01_highLightBox",
+					"realname": "highLightBox",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "pg01_txtOnly_01",
+					"realname": "txtOnly_01",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"id": 0,
+					"name": "1.wav",
+					"type": "sound"
+				},
+				{
+					"height": 161,
+					"id": 1,
+					"name": "WhiteBox.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 501
+				},
+				{
+					"height": 161,
+					"id": 2,
+					"name": "txtOnly_01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 501
+				},
+				{
+					"height": 56,
+					"id": 3,
+					"name": "highLightBox.png",
+					"pivot_x": 1,
+					"pivot_y": 0.5,
+					"width": 324
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}

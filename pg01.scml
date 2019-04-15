@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="1.wav" type="sound"/>
+        <file id="1" name="WhiteBox.png" width="501" height="161" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="txtOnly_01.png" width="501" height="161" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="highLightBox.png" width="324" height="56" pivot_x="1" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="pg01">
+        <obj_info name="pg01_WhiteBox" realname="WhiteBox" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pg01_highLightBox" realname="highLightBox" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pg01_txtOnly_01" realname="txtOnly_01" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="pg01" length="2205" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="WhiteBox" folder="0" file="1" abs_x="-250.5" abs_y="80.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="highLightBox" folder="0" file="3" abs_x="16.3756" abs_y="30.4" abs_angle="0" abs_scale_x="0.292961" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="txtOnly_01" folder="0" file="2" abs_x="-250.5" abs_y="80.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="1" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="897" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="2205" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="WhiteBox">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="1" time="1" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="2" time="897" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="3" time="2205" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="highLightBox">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="111.294964" y="2.4" angle="0" scale_x="0.292961" a="0"/>
+                </key>
+                <key id="1" time="1" spin="0">
+                    <object folder="0" file="3" x="111.294964" y="2.4" angle="0" scale_x="0.292961"/>
+                </key>
+                <key id="2" time="897" spin="0">
+                    <object folder="0" file="3" x="17.769784" y="2.4" angle="0" scale_x="0.40045"/>
+                </key>
+                <key id="3" time="2205" spin="0">
+                    <object folder="0" file="3" x="17.769784" y="2.4" angle="0" scale_x="0.40045" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="txtOnly_01">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="1" time="1" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="2" time="897" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="3" time="2205" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="1">
+                <key id="0" time="1">
+                    <object folder="0" file="0"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,297 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1100,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 310.05042,
+										"abs_y": 204.690803,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "b_0008_11",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 137
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 300
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 479
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 684
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 893
+							}
+						]
+					},
+					"name": "anim",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 1
+									},
+									"time": 152
+								}
+							],
+							"name": "pg2_bookopenb"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0,
+									"time": 137
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0,
+									"time": 300
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0,
+									"time": 479
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0,
+									"time": 684
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 310.05042,
+										"y": -204.690803
+									},
+									"spin": 0,
+									"time": 893
+								}
+							],
+							"name": "b_0008_11",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_b_0008_11",
+					"realname": "b_0008_11",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 304,
+					"id": 0,
+					"name": "b_0008_11.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 270
+				},
+				{
+					"height": 304,
+					"id": 1,
+					"name": "b_0004_15.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 270
+				},
+				{
+					"height": 304,
+					"id": 2,
+					"name": "b_0005_14.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 270
+				},
+				{
+					"height": 304,
+					"id": 3,
+					"name": "b_0006_13.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 270
+				},
+				{
+					"height": 304,
+					"id": 4,
+					"name": "b_0007_12.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 270
+				}
+			],
+			"id": 0
+		},
+		{
+			"file": [
+				{
+					"id": 0,
+					"name": "snd/pg2_bookopenb.wav",
+					"type": "sound"
+				}
+			],
+			"id": 1,
+			"name": "snd"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}

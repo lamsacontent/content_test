@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0">
+        <file id="0" name="g_0019_d1.png" width="284" height="299" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="g_0015_d5.png" width="284" height="299" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="g_0016_d4.png" width="284" height="299" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="g_0017_d3.png" width="284" height="299" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="g_0018_d2.png" width="284" height="299" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="h_0015_d5.png" width="297" height="274" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="h_0011_d9.png" width="297" height="274" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="h_0012_d8.png" width="297" height="274" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="h_0013_d7.png" width="297" height="274" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="h_0014_d6.png" width="297" height="274" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg19_appear1.wav" type="sound"/>
+        <file id="1" name="snd/pg19_teeth.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_g_0019_d1" realname="g_0019_d1" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_h_0015_d5" realname="h_0015_d5" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+                <i folder="0" file="9"/>
+                <i folder="0" file="8"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="650" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="g_0019_d1" folder="0" file="0" abs_x="-471.698113" abs_y="-26.415094" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="90">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="181">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="275">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="477">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="568">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="g_0019_d1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+                <key id="1" time="90" spin="0">
+                    <object folder="0" file="4" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+                <key id="2" time="181" spin="0">
+                    <object folder="0" file="3" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+                <key id="3" time="275" spin="0">
+                    <object folder="0" file="2" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+                <key id="4" time="477" spin="0">
+                    <object folder="0" file="3" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+                <key id="5" time="568" spin="0">
+                    <object folder="0" file="4" x="-329.698113" y="-175.915094" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="anim" length="1500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="h_0015_d5" folder="0" file="5" abs_x="-484.01404" abs_y="-54.659509" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="387">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="474">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="555">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="634">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="714">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+                <key id="9" time="791">
+                    <object_ref id="0" timeline="0" key="9" z_index="0"/>
+                </key>
+                <key id="10" time="862">
+                    <object_ref id="0" timeline="0" key="10" z_index="0"/>
+                </key>
+                <key id="11" time="927">
+                    <object_ref id="0" timeline="0" key="11" z_index="0"/>
+                </key>
+                <key id="12" time="993">
+                    <object_ref id="0" timeline="0" key="12" z_index="0"/>
+                </key>
+                <key id="13" time="1062">
+                    <object_ref id="0" timeline="0" key="13" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="1" name="h_0015_d5">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="9" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="8" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="4" time="387" spin="0">
+                    <object folder="0" file="6" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="5" time="474" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="6" time="555" spin="0">
+                    <object folder="0" file="6" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="7" time="634" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="8" time="714" spin="0">
+                    <object folder="0" file="6" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="9" time="791" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="10" time="862" spin="0">
+                    <object folder="0" file="6" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="11" time="927" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="12" time="993" spin="0">
+                    <object folder="0" file="6" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+                <key id="13" time="1062" spin="0">
+                    <object folder="0" file="7" x="-335.51404" y="-191.659509" angle="0"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg19_appear1">
+                <key id="0" time="30">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg19_teeth">
+                <key id="0" time="387">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

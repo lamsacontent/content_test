@@ -1,0 +1,289 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 2000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -47.155238933155914,
+										"abs_y": 8.05886022483545,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "clickMe",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 0,
+										"abs_angle": 0,
+										"abs_pivot_x": 1,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -20.77685993315591,
+										"abs_y": -39.37357277516455,
+										"file": 1,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "boxTiny",
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 1
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 750
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 1500
+							}
+						]
+					},
+					"name": "clickMe",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -47.155238933155914,
+										"y": -8.05886022483545
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -47.155238933155914,
+										"y": -8.05886022483545
+									},
+									"spin": 0,
+									"time": 1
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -47.155238933155914,
+										"y": -8.05886022483545
+									},
+									"spin": 0,
+									"time": 750
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -47.155238933155914,
+										"y": -8.05886022483545
+									},
+									"spin": 0,
+									"time": 1500
+								}
+							],
+							"name": "clickMe",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0,
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -20.77685993315591,
+										"y": 39.37357277516455
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"scale_x": 1.0410658508826214,
+										"scale_y": 1.1724452554744529,
+										"x": -17.07072993315591,
+										"y": -30.66096222483545
+									},
+									"spin": 0,
+									"time": 1
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"scale_x": 1.0410658508826214,
+										"scale_y": 1.1724452554744529,
+										"x": -17.07072993315591,
+										"y": -40.16096222483545
+									},
+									"spin": 0,
+									"time": 750
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"scale_x": 1.0410658508826214,
+										"scale_y": 1.1724452554744529,
+										"x": -17.07072993315591,
+										"y": -49.66096222483545
+									},
+									"spin": 0,
+									"time": 1500
+								}
+							],
+							"name": "boxTiny",
+							"obj": 1
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "clickMe",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "clickMe_clickMe",
+					"realname": "clickMe",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "clickMe_boxTiny",
+					"realname": "boxTiny",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 231,
+					"id": 0,
+					"name": "clickMe.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 172
+				},
+				{
+					"height": 7,
+					"id": 1,
+					"name": "boxTiny.png",
+					"pivot_x": 1,
+					"pivot_y": 0.5,
+					"width": 49
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}

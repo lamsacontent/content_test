@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="bg3.jpg" width="1280" height="768" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="pencycl_0029_1.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="pencycl_0017_7.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="pencycl_0019_6.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="pencycl_0021_5.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="pencycl_0023_4.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="pencycl_0025_3.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="pencycl_0027_2.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="pa_0015_8.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="pa_0013_9.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="pa_0001_11-copy-3.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="pa_0003_12-copy-3.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="pa_0005_10-copy-3.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="pa_0007_12.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="pa_0009_11.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="pa_0011_10.png" width="700" height="480" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg3_air.wav" type="sound"/>
+        <file id="1" name="snd/pg3_happy.wav" type="sound"/>
+        <file id="2" name="snd/pg3_happy2.wav" type="sound"/>
+        <file id="3" name="snd/pg3_blink.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_pencycl_0029_1" realname="pencycl_0029_1" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="5"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="2"/>
+                <i folder="0" file="9"/>
+                <i folder="0" file="15"/>
+                <i folder="0" file="14"/>
+                <i folder="0" file="13"/>
+                <i folder="0" file="12"/>
+                <i folder="0" file="11"/>
+                <i folder="0" file="10"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="900" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="pencycl_0029_1" folder="0" file="1" abs_x="-477.586207" abs_y="363.793103" abs_angle="0" abs_scale_x="1.5" abs_scale_y="1.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="128">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="257">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="385">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="514">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="644">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="771">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="pencycl_0029_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="1" time="128" spin="0">
+                    <object folder="0" file="7" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="2" time="257" spin="0">
+                    <object folder="0" file="6" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="3" time="385" spin="0">
+                    <object folder="0" file="5" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="4" time="514" spin="0">
+                    <object folder="0" file="4" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="5" time="644" spin="0">
+                    <object folder="0" file="3" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="6" time="771" spin="0">
+                    <object folder="0" file="2" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg3_air">
+                <key id="0" time="1">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+        </animation>
+        <animation id="1" name="anim" length="950" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="pencycl_0029_1" folder="0" file="1" abs_x="-477.586207" abs_y="363.793103" abs_angle="0" abs_scale_x="1.5" abs_scale_y="1.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="198">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="298">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="398">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="499">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="598">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="698">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="pencycl_0029_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="0" file="9" x="27.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="2" time="198" spin="0">
+                    <object folder="0" file="15" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="3" time="298" spin="0">
+                    <object folder="0" file="14" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="4" time="398" spin="0">
+                    <object folder="0" file="13" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="5" time="499" spin="0">
+                    <object folder="0" file="12" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="6" time="598" spin="0">
+                    <object folder="0" file="11" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="7" time="698" spin="0">
+                    <object folder="0" file="10" x="47.413793" y="3.793103" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg3_happy">
+                <key id="0" time="1">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg3_happy2">
+                <key id="0" time="217">
+                    <object folder="1" file="2"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg3_blink">
+                <key id="0" time="132">
+                    <object folder="1" file="3"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

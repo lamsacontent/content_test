@@ -1,0 +1,1563 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1200,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -301.648919,
+										"abs_y": 25.781314,
+										"file": 0,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "vg_0011_a_0066_a1",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									}
+								],
+								"time": 100
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "0"
+									}
+								],
+								"time": 200
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "0"
+									}
+								],
+								"time": 300
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 400
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "0"
+									}
+								],
+								"time": 600
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "0"
+									}
+								],
+								"time": 700
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 800
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -301.648919,
+										"y": -25.781314
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -301.648919,
+										"y": -25.781314
+									},
+									"spin": 0,
+									"time": 400
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -301.648919,
+										"y": -25.781314
+									},
+									"spin": 0,
+									"time": 800
+								}
+							],
+							"name": "vg_0011_a_0066_a1",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -324.651163,
+										"y": -13.953488
+									},
+									"spin": 0,
+									"time": 100
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -324.651163,
+										"y": -13.953488
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "vg_0012_a_0065_a2",
+							"obj": 2
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"x": -340,
+										"y": -5.116279
+									},
+									"spin": 0,
+									"time": 200
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"x": -340,
+										"y": -5.116279
+									},
+									"spin": 0,
+									"time": 600
+								}
+							],
+							"name": "vg_0013_a_0064_a3",
+							"obj": 3
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 1,
+										"x": -329.767442,
+										"y": -19.56728
+									},
+									"spin": 0,
+									"time": 300
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 1,
+										"x": -329.767442,
+										"y": -19.56728
+									},
+									"spin": 0,
+									"time": 700
+								}
+							],
+							"name": "vg_0014_a_0063_a4",
+							"obj": 4
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 3500,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -440.104364,
+										"abs_y": -88.362168,
+										"file": 5,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "vg_0016_Layer-0",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									}
+								],
+								"time": 100
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "0"
+									}
+								],
+								"time": 200
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "0"
+									}
+								],
+								"time": 300
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "0"
+									}
+								],
+								"time": 400
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 600
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "0"
+									}
+								],
+								"time": 701
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "0"
+									}
+								],
+								"time": 800
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "9",
+										"z_index": "0"
+									}
+								],
+								"time": 900
+							},
+							{
+								"bone_ref": [],
+								"id": 10,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "10",
+										"z_index": "0"
+									}
+								],
+								"time": 1000
+							},
+							{
+								"bone_ref": [],
+								"id": 11,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "11",
+										"z_index": "0"
+									}
+								],
+								"time": 1100
+							},
+							{
+								"bone_ref": [],
+								"id": 12,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 1200
+							},
+							{
+								"bone_ref": [],
+								"id": 13,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "0"
+									}
+								],
+								"time": 1300
+							},
+							{
+								"bone_ref": [],
+								"id": 14,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "8",
+										"z_index": "0"
+									}
+								],
+								"time": 1400
+							},
+							{
+								"bone_ref": [],
+								"id": 15,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "9",
+										"z_index": "0"
+									}
+								],
+								"time": 1500
+							},
+							{
+								"bone_ref": [],
+								"id": 16,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "10",
+										"z_index": "0"
+									}
+								],
+								"time": 1600
+							},
+							{
+								"bone_ref": [],
+								"id": 17,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "11",
+										"z_index": "0"
+									}
+								],
+								"time": 1700
+							},
+							{
+								"bone_ref": [],
+								"id": 18,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 1800
+							},
+							{
+								"bone_ref": [],
+								"id": 19,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "7",
+										"z_index": "0"
+									}
+								],
+								"time": 1900
+							},
+							{
+								"bone_ref": [],
+								"id": 20,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "8",
+										"z_index": "0"
+									}
+								],
+								"time": 2000
+							},
+							{
+								"bone_ref": [],
+								"id": 21,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "9",
+										"z_index": "0"
+									}
+								],
+								"time": 2100
+							},
+							{
+								"bone_ref": [],
+								"id": 22,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "10",
+										"z_index": "0"
+									}
+								],
+								"time": 2200
+							},
+							{
+								"bone_ref": [],
+								"id": 23,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "11",
+										"z_index": "0"
+									}
+								],
+								"time": 2300
+							},
+							{
+								"bone_ref": [],
+								"id": 24,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 2400
+							},
+							{
+								"bone_ref": [],
+								"id": 25,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "7",
+										"z_index": "0"
+									}
+								],
+								"time": 2500
+							},
+							{
+								"bone_ref": [],
+								"id": 26,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "8",
+										"z_index": "0"
+									}
+								],
+								"time": 2600
+							},
+							{
+								"bone_ref": [],
+								"id": 27,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "9",
+										"z_index": "0"
+									}
+								],
+								"time": 2700
+							},
+							{
+								"bone_ref": [],
+								"id": 28,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "10",
+										"z_index": "0"
+									}
+								],
+								"time": 2800
+							},
+							{
+								"bone_ref": [],
+								"id": 29,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "11",
+										"z_index": "0"
+									}
+								],
+								"time": 2900
+							}
+						]
+					},
+					"name": "anim",
+					"soundline": [
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0
+									},
+									"time": 100
+								}
+							],
+							"name": "pg19_happy"
+						},
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 0
+									},
+									"time": 151
+								}
+							],
+							"name": "pg19_music"
+						},
+						{
+							"id": -1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 0
+									},
+									"time": 600
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 2,
+										"folder": 0
+									},
+									"time": 1205
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 2,
+										"folder": 0
+									},
+									"time": 1804
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 2,
+										"folder": 0
+									},
+									"time": 2416
+								}
+							],
+							"name": "pg19_finger"
+						}
+					],
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 1,
+										"x": -440.104364,
+										"y": 88.362168
+									},
+									"spin": 0
+								}
+							],
+							"name": "vg_0016_Layer-0",
+							"obj": 5
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 1,
+										"x": -443.436801,
+										"y": 83.910113
+									},
+									"spin": 0,
+									"time": 100
+								}
+							],
+							"name": "vg_0000_b_0061_a6",
+							"obj": 6
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 1,
+										"x": -457.077176,
+										"y": 128.078818
+									},
+									"spin": 0,
+									"time": 200
+								}
+							],
+							"name": "vg_0001_b_0060_a7",
+							"obj": 7
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 1,
+										"x": -578.443114,
+										"y": 160.633905
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "vg_0002_b_0059_a8",
+							"obj": 8
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 1,
+										"x": -606.11504,
+										"y": 147.582628
+									},
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "vg_0003_b_0058_a9",
+							"obj": 9
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 10,
+										"folder": 1,
+										"x": -534.994757,
+										"y": 160.746916
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "vg_0004_b_0057_a10",
+							"obj": 10
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 1,
+										"x": -470.008226,
+										"y": 160.63671
+									},
+									"spin": 0,
+									"time": 600
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 1,
+										"x": -470.008226,
+										"y": 160.63671
+									},
+									"spin": 0,
+									"time": 1200
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 1,
+										"x": -470.008226,
+										"y": 160.63671
+									},
+									"spin": 0,
+									"time": 1800
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 11,
+										"folder": 1,
+										"x": -470.008226,
+										"y": 160.63671
+									},
+									"spin": 0,
+									"time": 2400
+								}
+							],
+							"name": "vg_0005_b_0056_a11",
+							"obj": 11
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 1,
+										"x": -470.108902,
+										"y": 160.778323
+									},
+									"spin": 0,
+									"time": 701
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 1,
+										"x": -470.108902,
+										"y": 160.778323
+									},
+									"spin": 0,
+									"time": 1300
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 1,
+										"x": -470.108902,
+										"y": 160.778323
+									},
+									"spin": 0,
+									"time": 1900
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 12,
+										"folder": 1,
+										"x": -470.108902,
+										"y": 160.778323
+									},
+									"spin": 0,
+									"time": 2500
+								}
+							],
+							"name": "vg_0006_b_0055_a12",
+							"obj": 12
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1,
+										"x": -470.143571,
+										"y": 160.76679
+									},
+									"spin": 0,
+									"time": 800
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1,
+										"x": -470.143571,
+										"y": 160.76679
+									},
+									"spin": 0,
+									"time": 1400
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1,
+										"x": -470.143571,
+										"y": 160.76679
+									},
+									"spin": 0,
+									"time": 2000
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 13,
+										"folder": 1,
+										"x": -470.143571,
+										"y": 160.76679
+									},
+									"spin": 0,
+									"time": 2600
+								}
+							],
+							"name": "vg_0007_b_0054_a13",
+							"obj": 13
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1,
+										"x": -470.135039,
+										"y": 160.855844
+									},
+									"spin": 0,
+									"time": 900
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1,
+										"x": -470.135039,
+										"y": 160.855844
+									},
+									"spin": 0,
+									"time": 1500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1,
+										"x": -470.135039,
+										"y": 160.855844
+									},
+									"spin": 0,
+									"time": 2100
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 14,
+										"folder": 1,
+										"x": -470.135039,
+										"y": 160.855844
+									},
+									"spin": 0,
+									"time": 2700
+								}
+							],
+							"name": "vg_0008_b_0053_a14",
+							"obj": 14
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 1,
+										"x": -470.2916,
+										"y": 160.881097
+									},
+									"spin": 0,
+									"time": 1000
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 1,
+										"x": -470.2916,
+										"y": 160.881097
+									},
+									"spin": 0,
+									"time": 1600
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 1,
+										"x": -470.2916,
+										"y": 160.881097
+									},
+									"spin": 0,
+									"time": 2200
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 1,
+										"x": -470.2916,
+										"y": 160.881097
+									},
+									"spin": 0,
+									"time": 2800
+								}
+							],
+							"name": "vg_0009_b_0052_a15",
+							"obj": 15
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 16,
+										"folder": 1,
+										"x": -470.299551,
+										"y": 160.92373
+									},
+									"spin": 0,
+									"time": 1100
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 16,
+										"folder": 1,
+										"x": -470.299551,
+										"y": 160.92373
+									},
+									"spin": 0,
+									"time": 1700
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 16,
+										"folder": 1,
+										"x": -470.299551,
+										"y": 160.92373
+									},
+									"spin": 0,
+									"time": 2300
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 16,
+										"folder": 1,
+										"x": -470.299551,
+										"y": 160.92373
+									},
+									"spin": 0,
+									"time": 2900
+								}
+							],
+							"name": "vg_0010_b_0051_a16",
+							"obj": 16
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [],
+					"name": "entity_000_a_0066_a1",
+					"realname": "a_0066_a1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0011_a_0066_a1",
+					"realname": "vg_0011_a_0066_a1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0012_a_0065_a2",
+					"realname": "vg_0012_a_0065_a2",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0013_a_0064_a3",
+					"realname": "vg_0013_a_0064_a3",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0014_a_0063_a4",
+					"realname": "vg_0014_a_0063_a4",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0016_Layer-0",
+					"realname": "vg_0016_Layer-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0000_b_0061_a6",
+					"realname": "vg_0000_b_0061_a6",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0001_b_0060_a7",
+					"realname": "vg_0001_b_0060_a7",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0002_b_0059_a8",
+					"realname": "vg_0002_b_0059_a8",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0003_b_0058_a9",
+					"realname": "vg_0003_b_0058_a9",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 10,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0004_b_0057_a10",
+					"realname": "vg_0004_b_0057_a10",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 11,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0005_b_0056_a11",
+					"realname": "vg_0005_b_0056_a11",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 12,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0006_b_0055_a12",
+					"realname": "vg_0006_b_0055_a12",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 13,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0007_b_0054_a13",
+					"realname": "vg_0007_b_0054_a13",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 14,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0008_b_0053_a14",
+					"realname": "vg_0008_b_0053_a14",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 15,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0009_b_0052_a15",
+					"realname": "vg_0009_b_0052_a15",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 16,
+							"folder": 1
+						}
+					],
+					"name": "entity_000_vg_0010_b_0051_a16",
+					"realname": "vg_0010_b_0051_a16",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"id": 0,
+					"name": "snd/pg19_happy.wav",
+					"type": "sound"
+				},
+				{
+					"id": 1,
+					"name": "snd/pg19_music.wav",
+					"type": "sound"
+				},
+				{
+					"id": 2,
+					"name": "snd/pg19_finger.wav",
+					"type": "sound"
+				}
+			],
+			"id": 0,
+			"name": "snd"
+		},
+		{
+			"file": [
+				{
+					"height": 228,
+					"id": 0,
+					"name": "anim/vg_0011_a_0066_a1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 277
+				},
+				{
+					"height": 253,
+					"id": 1,
+					"name": "anim/vg_0012_a_0065_a2.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 242
+				},
+				{
+					"height": 269,
+					"id": 2,
+					"name": "anim/vg_0013_a_0064_a3.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 218
+				},
+				{
+					"height": 238,
+					"id": 3,
+					"name": "anim/vg_0014_a_0063_a4.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 228
+				},
+				{
+					"height": 228,
+					"id": 4,
+					"name": "anim/vg_0015_a_0062_a5.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 277
+				},
+				{
+					"height": 228,
+					"id": 5,
+					"name": "anim/vg_0016_Layer-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 273
+				},
+				{
+					"height": 224,
+					"id": 6,
+					"name": "anim/vg_0000_b_0061_a6.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 250
+				},
+				{
+					"height": 268,
+					"id": 7,
+					"name": "anim/vg_0001_b_0060_a7.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 315
+				},
+				{
+					"height": 362,
+					"id": 8,
+					"name": "anim/vg_0002_b_0059_a8.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 623
+				},
+				{
+					"height": 461,
+					"id": 9,
+					"name": "anim/vg_0003_b_0058_a9.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 684
+				},
+				{
+					"height": 293,
+					"id": 10,
+					"name": "anim/vg_0004_b_0057_a10.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 580
+				},
+				{
+					"height": 293,
+					"id": 11,
+					"name": "anim/vg_0005_b_0056_a11.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				},
+				{
+					"height": 293,
+					"id": 12,
+					"name": "anim/vg_0006_b_0055_a12.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				},
+				{
+					"height": 293,
+					"id": 13,
+					"name": "anim/vg_0007_b_0054_a13.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				},
+				{
+					"height": 293,
+					"id": 14,
+					"name": "anim/vg_0008_b_0053_a14.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				},
+				{
+					"height": 293,
+					"id": 15,
+					"name": "anim/vg_0009_b_0052_a15.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				},
+				{
+					"height": 293,
+					"id": 16,
+					"name": "anim/vg_0010_b_0051_a16.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 515
+				}
+			],
+			"id": 1,
+			"name": "anim"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}

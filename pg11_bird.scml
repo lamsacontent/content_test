@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0" name="anim">
+        <file id="0" name="anim/dr_0011_Layer-0.png" width="85" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="anim/dr_0010_b_0008_b2.png" width="85" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="anim/dr_0009_b_0009_b1.png" width="85" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="anim/dr_0000_v_0008_b2.png" width="85" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="anim/dr_0001_v_0007_b3.png" width="85" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="anim/dr_0002_v_0006_b4.png" width="84" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="anim/dr_0003_v_0005_b5.png" width="58" height="82" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="anim/dr_0004_v_0004_b6.png" width="80" height="71" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="anim/dr_0005_v_0003_b7.png" width="96" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="anim/dr_0006_v_0002_b8.png" width="92" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="anim/dr_0007_v_0001_b9.png" width="87" height="67" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="anim/dr_0008_v_0000_b10.png" width="91" height="43" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg11_fly.wav" type="sound"/>
+        <file id="1" name="snd/pg11_sparkle.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_dr_0011_Layer-0" realname="dr_0011_Layer-0" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0010_b_0008_b2" realname="dr_0010_b_0008_b2" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0009_b_0009_b1" realname="dr_0009_b_0009_b1" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0000_v_0008_b2" realname="dr_0000_v_0008_b2" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0002_v_0006_b4" realname="dr_0002_v_0006_b4" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0003_v_0005_b5" realname="dr_0003_v_0005_b5" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0004_v_0004_b6" realname="dr_0004_v_0004_b6" type="sprite">
+            <frames>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0005_v_0003_b7" realname="dr_0005_v_0003_b7" type="sprite">
+            <frames>
+                <i folder="0" file="8"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0006_v_0002_b8" realname="dr_0006_v_0002_b8" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0007_v_0001_b9" realname="dr_0007_v_0001_b9" type="sprite">
+            <frames>
+                <i folder="0" file="10"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_dr_0008_v_0000_b10" realname="dr_0008_v_0000_b10" type="sprite">
+            <frames>
+                <i folder="0" file="11"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="dr_0011_Layer-0" folder="0" file="0" abs_x="-47.964767" abs_y="101.401279" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="dr_0011_Layer-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-47.964767" y="101.401279"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="dr_0010_b_0008_b2">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" x="-48.380764" y="102.749146"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="anim" length="1500" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="dr_0009_b_0009_b1" folder="0" file="2" abs_x="-47.918506" abs_y="101.533225" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="900">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="2" name="dr_0009_b_0009_b1">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-47.918506" y="101.533225"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="2" x="-47.918506" y="101.533225"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="3" name="dr_0000_v_0008_b2">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="3" x="-48.462086" y="102.903077"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="4" name="dr_0002_v_0006_b4">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="5" x="-48.552185" y="107.337563"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="5" name="dr_0003_v_0005_b5">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="6" x="28.571429" y="69.866071"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="6" name="dr_0004_v_0004_b6">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="7" x="108.184403" y="-84.234812"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="7" name="dr_0005_v_0003_b7">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="8" x="216.639447" y="-155.954499"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="8" name="dr_0006_v_0002_b8">
+                <key id="0" time="700" spin="0">
+                    <object folder="0" file="9" x="214.893856" y="-148.016884"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="9" name="dr_0007_v_0001_b9">
+                <key id="0" time="800" spin="0">
+                    <object folder="0" file="10" x="219.07111" y="-168.186951"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="10" name="dr_0008_v_0000_b10">
+                <key id="0" time="900" spin="0">
+                    <object folder="0" file="11" x="230.077063" y="-201.770763"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg11_fly">
+                <key id="0" time="175">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg11_sparkle">
+                <key id="0" time="299">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>

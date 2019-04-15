@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0">
+        <file id="0" name="bg5.jpg" width="1280" height="768" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="m_0033_Layer-3.png" width="176" height="241" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="v_0034_Layer-4.png" width="127" height="137" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="snd">
+        <file id="0" name="snd/pg5_loop.wav" type="sound"/>
+        <file id="1" name="snd/pg5_slide.wav" type="sound"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_m_0033_Layer-3" realname="m_0033_Layer-3" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_v_0034_Layer-4" realname="v_0034_Layer-4" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="anim" length="1200" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="v_0034_Layer-4" folder="0" file="2" abs_x="-377.333333" abs_y="198.666667" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="m_0033_Layer-3" folder="0" file="1" abs_x="-562.918239" abs_y="200.226415" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="174">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="349">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="523">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="700">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="m_0033_Layer-3">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-562.918239" y="200.226415"/>
+                </key>
+                <key id="1" time="174" spin="0">
+                    <object folder="0" file="1" x="-404.918239" y="200.226415"/>
+                </key>
+                <key id="2" time="349" spin="0">
+                    <object folder="0" file="1" x="-400.570413" y="53.487285"/>
+                </key>
+                <key id="3" time="523" spin="0">
+                    <object folder="0" file="1" x="-562.570413" y="53.487285"/>
+                </key>
+                <key id="4" time="700" spin="0">
+                    <object folder="0" file="1" x="-562.918239" y="200.226415"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="v_0034_Layer-4">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-377.333333" y="198.666667"/>
+                </key>
+                <key id="1" time="349" spin="0">
+                    <object folder="0" file="2" x="-548.333333" y="198.666667"/>
+                </key>
+                <key id="2" time="523" spin="0">
+                    <object folder="0" file="2" x="-377.333333" y="198.666667"/>
+                </key>
+                <key id="3" time="700" spin="0">
+                    <object folder="0" file="2" x="-377.333333" y="198.666667"/>
+                </key>
+            </timeline>
+            <soundline id="-1" name="pg5_loop">
+                <key id="0" time="117">
+                    <object folder="1" file="0"/>
+                </key>
+            </soundline>
+            <soundline id="-1" name="pg5_slide">
+                <key id="0" time="170">
+                    <object folder="1" file="1"/>
+                </key>
+            </soundline>
+        </animation>
+    </entity>
+</spriter_data>
